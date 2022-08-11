@@ -1,6 +1,6 @@
-import React from 'react';
 import Sidebar from './components/sidebar/Sidebar';
 import Topbar from './components/topbar/Topbar';
+import './app.css';
 
 const App = () => {
   return (
@@ -8,7 +8,9 @@ const App = () => {
       <Topbar/>
       <div className="container">
           <Sidebar />
-          otherpages
+          <div className='others'>
+              others container
+          </div>
       </div>
     </div>
   );
